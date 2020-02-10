@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 2px solid black;
+
+    h1 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .score-board {
+        padding: 20px 0;
+        margin: 20px 0;
+        text-align: center;
+        border: 2px solid red;
+
+        #user {
+            margin: 0 5px;
+            color: white;
+            background-color: red;
+        }
+
+        #computer {
+            
+            color: white;
+            background-color: red;
+        }
+
+        p {
+            padding: 10px 0;
+        }
+    }
+
+    .selectors {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        // background-color: black;
+
+        div {
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+    }
+
+    .result {
+        padding: 30px 0;
+        margin: 20px 0 0 0;
+        text-align: center;
+        border: 2px solid purple;
+    }
+}

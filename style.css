@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  border: 2px solid black;
+}
+
+.wrapper h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.wrapper .score-board {
+  padding: 20px 0;
+  margin: 20px 0;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.wrapper .score-board #user {
+  margin: 0 5px;
+  color: white;
+  background-color: red;
+}
+
+.wrapper .score-board #computer {
+  color: white;
+  background-color: red;
+}
+
+.wrapper .score-board p {
+  padding: 10px 0;
+}
+
+.wrapper .selectors {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wrapper .selectors div {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.wrapper .result {
+  padding: 30px 0;
+  margin: 20px 0 0 0;
+  text-align: center;
+  border: 2px solid purple;
+}
+/*# sourceMappingURL=style.css.map */
