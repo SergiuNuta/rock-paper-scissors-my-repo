@@ -9,20 +9,28 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
+    <header>
         <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="wrapper">
         <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
             
-            <P><span id="user">User</span><span id="user-score">0</span>:<span id="computer-score">0</span> <span id="computer">Computer</span> </P>
-            <!-- <div id="user-score"></div>
-            <div id="computer-score"></div> -->
         </div>
         <div class="selectors">
-            <div id="rock">Rock</div>
-            <div id="paper">Paper</div>
-            <div id="scissors">Scissors</div>
+            <div id="rock" class="choice">
+                <img src="pngkey.com-rock-paper-scissors-png-1113435.png" alt="" />
+            </div>
+            <div id="paper" class="choice">
+                <img src="paper.png" alt="" />
+            </div>
+            <div id="scissors" class="choice">
+                <img src="scissors.png" alt="" />
+            </div>
         </div>
-        <div class="result">Try your luck!</div>
+        <div class="result">START GAME!</div>
     </div>
 </body>
 </html>
